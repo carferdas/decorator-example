@@ -13,4 +13,14 @@ abstract class SetDecorator implements Unit
     {
         return $this->unit->defense();
     }
+
+    public function attack()
+    {
+        return $this->unit->attack();
+    }
+
+    public function life()
+    {
+        return $this->unit->life();
+    }
 }

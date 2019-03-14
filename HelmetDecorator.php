@@ -11,4 +11,9 @@ class HelmetDecorator extends SetDecorator
     {
         return parent::defense() + 50;
     }
+
+    public function life()
+    {
+        return parent::life() + 100;
+    }
 }
