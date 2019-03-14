@@ -6,9 +6,11 @@ class Warrior implements Unit
     protected $attack = 10;
     protected $life = 120;
 
-    public function __construct(int $defense = 0)
+    public function __construct(int $defense = 0, int $attack = 0, int $life = 0)
     {
         $this->defense = $defense;
+        $this->attack = $attack;
+        $this->life = $life;
     }
 
     public function defense()
