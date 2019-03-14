@@ -1,6 +1,6 @@
 <?php
 
-abstract class SetDecorator implements Unit
+abstract class KitDecorator implements Unit
 {
     protected $unit;
 

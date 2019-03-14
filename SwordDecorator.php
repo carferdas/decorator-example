@@ -1,6 +1,6 @@
 <?php
 
-class SwordDecorator extends SetDecorator
+class SwordDecorator extends KitDecorator
 {
     public function __construct(Unit $unit)
     {

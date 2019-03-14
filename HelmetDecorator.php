@@ -1,6 +1,6 @@
 <?php
 
-class HelmetDecorator extends SetDecorator
+class HelmetDecorator extends KitDecorator
 {
     public function __construct(Unit $unit)
     {
