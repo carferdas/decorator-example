@@ -1,19 +1,14 @@
 <?php
 
-class HelmetDecorator extends KitDecorator
+class HelmetDecorator extends ArmorDecorator
 {
-    public function __construct(Unit $unit)
+    public function __construct(Armor $armor)
     {
-        parent::__construct($unit);
+        parent::__construct($armor);
     }
 
-    public function defense()
+    public function defend()
     {
-        return parent::defense() + 50;
-    }
-
-    public function life()
-    {
-        return parent::life() + 100;
+        return parent::defend() + 75;
     }
 }

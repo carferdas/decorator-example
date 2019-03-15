@@ -1,14 +1,14 @@
 <?php
 
-class ShieldDecorator extends KitDecorator
+class ShieldDecorator extends ArmorDecorator
 {
-    public function __construct(Unit $unit)
+    public function __construct(Armor $armor)
     {
-        parent::__construct($unit);
+        parent::__construct($armor);
     }
 
-    public function defense()
+    public function defend()
     {
-        return parent::defense() + 100;
+        return parent::defend() + 100;
     }
 }
